@@ -21,7 +21,7 @@ function App() {
             email: authUser.email,
           })
         );
-        console.log(authUser);
+        // console.log(authUser);
       } else {
         dispatch(logout());
       }

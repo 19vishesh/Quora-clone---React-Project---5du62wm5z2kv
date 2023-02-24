@@ -15,7 +15,7 @@ function Login() {
    const signIn = async () => {
      try {
        await signInWithPopup(auth, provider);
-       console.log(auth.currentUser);
+      //  console.log(auth.currentUser);
      } catch (e) {
        alert(e.message);
      }

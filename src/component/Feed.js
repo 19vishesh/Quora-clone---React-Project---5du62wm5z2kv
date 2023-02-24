@@ -19,7 +19,7 @@ function Feed() {
     });
     return () => unsubscribe();
   }, []);
-  console.log(posts)
+  // console.log(posts)
   return (
     <div className="feed">
       <QuoraBox />
